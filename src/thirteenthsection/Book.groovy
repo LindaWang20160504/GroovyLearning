@@ -16,7 +16,7 @@ class Book {
     }
 
     String toString() { //redefinition
-        return "Book :${catalogNumber}:${title}:${author}"
+        return "Book :${catalogNumber}:${title} by:${author}"
     }
 }
 
